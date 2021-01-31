@@ -1,37 +1,95 @@
-## Welcome to GitHub Pages
+# 🌱 hugo-theme-dream
 
-You can use the [editor on GitHub](https://github.com/zou-jvm/zou-jvm.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/g1eny0ung/hugo-theme-dream)
+![Hugo min version](https://img.shields.io/badge/hugo--min--version-0.57.2-important)
+![GitHub](https://img.shields.io/github/license/g1eny0ung/hugo-theme-dream)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Note After v1.1.0](#note-after-v110)
+- [Major update in 2019-11-10](#major-update-in-2019-11-10)
+- [Intro](#intro)
+- [Documentation](#documentation)
+- [Installation](#installation)
+- [Example](#example)
+- [Publish](#publish)
 
-### Markdown
+## Note After v1.1.0
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> It's needed to set the **`about`** folder to **`Headless Bundle`**.
 
-```markdown
-Syntax highlighted code block
+Related docs:
 
-# Header 1
-## Header 2
-### Header 3
+<https://g1eny0ung.site/hugo-theme-dream/#/quick-start?id=add-quotabout-mequot>
 
-- Bulleted
-- List
+<https://g1eny0ung.site/hugo-theme-dream/#/about-page>
 
-1. Numbered
-2. List
+<https://gohugo.io/content-management/page-bundles/#headless-bundle>
 
-**Bold** and _Italic_ and `Code` text
+## Major update in 2019-11-10
 
-[Link](url) and ![Image](src)
+I completely rewrite the page layout to [masonry layout](https://masonry.desandro.com/).
+
+Correspondingly, the configuration (`config.toml`) also has some breaking changes.
+
+Please refer to the documentation for details.
+
+If you have other problems, you can also ask in the [issues](https://github.com/g1eny0ung/hugo-theme-dream/issues).
+
+## Intro
+
+Dream is a [Hugo](https://gohugo.io/) theme. I build it for [my blog](http://g1eny0ung.site).
+
+The main features are **full page flip** and **masonry layout views**.~
+
+Dream also support **light mode** and **dark mode** out of the box.
+
+demo: [https://themes.gohugo.io/theme/hugo-theme-dream/](https://themes.gohugo.io/theme/hugo-theme-dream/)
+
+![https://raw.githubusercontent.com/g1eny0ung/hugo-theme-dream/master/images/screenshot.png](https://raw.githubusercontent.com/g1eny0ung/hugo-theme-dream/master/images/screenshot.png)
+
+All tags of this theme:
+
+- flip
+- masonry layout
+- i18n
+- blog
+- google-analytics
+- disqus
+- responsive
+- copyright
+- avatar
+- motto
+- social links
+- creative
+- personal
+- light mode
+- dark mode
+- search
+
+## Documentation
+
+[https://g1eny0ung.site/hugo-theme-dream](https://g1eny0ung.site/hugo-theme-dream)
+
+## Installation
+
+Go into your blog folder and:
+
+```sh
+cd themes
+git clone https://github.com/g1eny0ung/hugo-theme-dream.git dream
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then open your `config.toml` and edit to `theme = "dream"` and save.
 
-### Jekyll Themes
+## Example
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zou-jvm/zou-jvm.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[My Blog](https://g1eny0ung.site)
 
-### Support or Contact
+[My Blog's Source Code](https://github.com/g1eny0ung/blog)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Publish
+
+View [hugo hosting-and-deployment](https://gohugo.io/hosting-and-deployment/)
+
+## License
+
+MIT © [g1eny0ung](https://github.com/g1eny0ung)
